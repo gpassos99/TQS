@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Book search" time="0.098" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/passos/Documents/Lab5/Ex2/target/test-classes:/home/passos/Documents/Lab5/Ex2/target/classes:/home/passos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar:/home/passos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/passos/.m2/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar:/home/passos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/passos/.m2/repository/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar:/home/passos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar:/home/passos/.m2/repository/io/cucumber/cucumber-java/6.10.3/cucumber-java-6.10.3.jar:/home/passos/.m2/repository/io/cucumber/cucumber-core/6.10.3/cucumber-core-6.10.3.jar:/home/passos/.m2/repository/io/cucumber/cucumber-gherkin/6.10.3/cucumber-gherkin-6.10.3.jar:/home/passos/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.3/cucumber-gherkin-messages-6.10.3.jar:/home/passos/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/home/passos/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/home/passos/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/home/passos/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/home/passos/.m2/repository/io/cucumber/cucumber-plugin/6.10.3/cucumber-plugin-6.10.3.jar:/home/passos/.m2/repository/io/cucumber/docstring/6.10.3/docstring-6.10.3.jar:/home/passos/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/home/passos/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/home/passos/.m2/repository/io/cucumber/cucumber-junit-platform-engine/6.10.3/cucumber-junit-platform-engine-6.10.3.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/passos/Documents/Lab5/Ex2/target/surefire/surefirebooter17022385838267211013.jar /home/passos/Documents/Lab5/Ex2/target/surefire 2021-04-22T14-16-34_588-jvmRun1 surefire15174114797772461436tmp surefire_011624523970743684952tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/passos/Documents/Lab5/Ex2/target/test-classes:/home/passos/Documents/Lab5/Ex2/target/classes:/home/passos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar:/home/passos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/passos/.m2/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar:/home/passos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/passos/.m2/repository/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar:/home/passos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar:/home/passos/.m2/repository/io/cucumber/cucumber-java/6.10.3/cucumber-java-6.10.3.jar:/home/passos/.m2/repository/io/cucumber/cucumber-core/6.10.3/cucumber-core-6.10.3.jar:/home/passos/.m2/repository/io/cucumber/cucumber-gherkin/6.10.3/cucumber-gherkin-6.10.3.jar:/home/passos/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.3/cucumber-gherkin-messages-6.10.3.jar:/home/passos/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/home/passos/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/home/passos/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/home/passos/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/home/passos/.m2/repository/io/cucumber/cucumber-plugin/6.10.3/cucumber-plugin-6.10.3.jar:/home/passos/.m2/repository/io/cucumber/docstring/6.10.3/docstring-6.10.3.jar:/home/passos/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/home/passos/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/home/passos/.m2/repository/io/cucumber/cucumber-junit-platform-engine/6.10.3/cucumber-junit-platform-engine-6.10.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/passos"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/passos/Documents/Lab5/Ex2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/passos/Documents/Lab5/Ex2/target/surefire/surefirebooter17022385838267211013.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+9-Ubuntu-0ubuntu1.20.04"/>
+    <property name="user.name" value="passos"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-72-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/passos/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="/home/passos/Documents/Lab5/Ex2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.10+9-Ubuntu-0ubuntu1.20.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Search books by publication year" classname="Book search" time="0.094">
+    <error message="The step &apos;a book with the title &apos;One good book&apos;, written by &apos;Anonymous&apos;, published in 2013-03-14&apos; and 6 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;a book with the title {string}, written by {string}, published in {datetest}&quot;)&#10;public void a_book_with_the_title_written_by_published_in(String string, String string2, LocalDateTime datetest) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;another book with the title {string}, written by {string}, published in {int} August {int}&quot;)&#10;public void another_book_with_the_title_written_by_published_in_august(String string, String string2, Integer int1, Integer int2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;another book with the title {string}, written by {string}, published in {int} January {int}&quot;)&#10;public void another_book_with_the_title_written_by_published_in_january(String string, String string2, Integer int1, Integer int2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the customer searches for books published between {int} and {int}&quot;)&#10;public void the_customer_searches_for_books_published_between_and(Integer int1, Integer int2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;{int} books should have been found&quot;)&#10;public void books_should_have_been_found(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Book {int} should have the title {string}&quot;)&#10;public void book_should_have_the_title(Integer int1, String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException">io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'a book with the title 'One good book', written by 'Anonymous', published in 2013-03-14' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("a book with the title {string}, written by {string}, published in {datetest}")
+public void a_book_with_the_title_written_by_published_in(String string, String string2, LocalDateTime datetest) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("another book with the title {string}, written by {string}, published in {int} August {int}")
+public void another_book_with_the_title_written_by_published_in_august(String string, String string2, Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("another book with the title {string}, written by {string}, published in {int} January {int}")
+public void another_book_with_the_title_written_by_published_in_january(String string, String string2, Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the customer searches for books published between {int} and {int}")
+public void the_customer_searches_for_books_published_between_and(Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{int} books should have been found")
+public void books_should_have_been_found(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Book {int} should have the title {string}")
+public void book_should_have_the_title(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+</testsuite>

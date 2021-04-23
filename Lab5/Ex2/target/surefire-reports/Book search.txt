@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: Book search
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.098 s <<< FAILURE! - in Book search
+Search books by publication year  Time elapsed: 0.094 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'a book with the title 'One good book', written by 'Anonymous', published in 2013-03-14' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("a book with the title {string}, written by {string}, published in {datetest}")
+public void a_book_with_the_title_written_by_published_in(String string, String string2, LocalDateTime datetest) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("another book with the title {string}, written by {string}, published in {int} August {int}")
+public void another_book_with_the_title_written_by_published_in_august(String string, String string2, Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("another book with the title {string}, written by {string}, published in {int} January {int}")
+public void another_book_with_the_title_written_by_published_in_january(String string, String string2, Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the customer searches for books published between {int} and {int}")
+public void the_customer_searches_for_books_published_between_and(Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{int} books should have been found")
+public void books_should_have_been_found(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Book {int} should have the title {string}")
+public void book_should_have_the_title(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
